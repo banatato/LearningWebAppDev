@@ -56,6 +56,7 @@ function writeCSS(res) {
 }
 
 function beginPage(res, title) {
+    var nClass = "navbar navbar-inverse navbar-fixed-top";
     res.write("<!DOCTYPE html>\n");
     res.write("<html lang='en'>\n");
     res.write("<head>\n");
